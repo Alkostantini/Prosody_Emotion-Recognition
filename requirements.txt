@@ -3,5 +3,6 @@ pyaudio
 wave
 librosa
 pandas
+matplotlib
 tensorflow[and-cuda]
 keras
