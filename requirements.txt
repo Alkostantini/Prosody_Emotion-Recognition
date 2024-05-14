@@ -1,0 +1,7 @@
+gdown
+pyaudio
+wave
+librosa
+pandas
+tensorflow[and-cuda]
+keras
