@@ -40,7 +40,7 @@ class AudioRecorder:
 class App:
     def __init__(self, master):
         self.master = master
-        self.recorder = AudioRecorder()
+        self.recorder = AudioRecorder(duration=2.5)
 
         self.master.geometry("300x100")
         self.start_button = tk.Button(master, text="Start Recording", command=self.start_recording)
